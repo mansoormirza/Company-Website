@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="CSS Files/grid.css">
+    <link rel="stylesheet" href="CSS Files/style.css">
+    <link rel="stylesheet" href="CSS Files/queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Logos/" type="image/x-icon"> 
+    <title>CySecOps</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <section class="third-section">
+            <nav class="fixed-nav"> 
+                <div class="nav-center">
+                    <!-- Navigation Header -->
+                    <div class="nav-header">
+                        <img src="Logos/blue-logo.png" class="logo" alt="logo" />
+                        <button class="nav-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <!-- Navigation Links -->
+                    <ul class="links">
+                        <li><a href="#section5">Home</a></li>
+                        <li><a href="#section1">About</a></li>
+                        <li><a href="#section2">Services</a></li>
+                        <li><a href="#section3">Career</a></li>
+                        <li><a href="#section4">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Navigation Script -->
+            <script>
+                    const navToggle = document.querySelector(".nav-toggle");
+                const links = document.querySelector(".links");
+                const nav = document.querySelector("nav");
+
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 0) {
+                        nav.classList.add("fixed-nav");
+                    } else {
+                        nav.classList.remove("fixed-nav");
+                    }
+                });
+
+                navToggle.addEventListener('click', function() {
+                    links.classList.toggle("show-links");
+                });
+
+            </script>
+            
+            <!-- Header Content -->
+            <div class="row">
+                <div class="pic-container"> 
+                    <section class="second-section">
+                        <div class="row second-sec">
+                            <h1 class="firsth1">Empower Your Business Growth with <br>Invincible Cybersecurity</h1>
+                            <p class="firstpara">CySecOps delivers top-notch Cybersecurity solutions tailored to the specific needs of SaaS and Ecommerce startups to protect digital assets and drive business growth.</p>
+                            <div class="second-section-link">
+                                <a id="firstlink" href="#">Explore Us</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="section1" class="fourth-section">
+        <div class="row">
+            <h2 class="firsth2">ABOUT US</h2>
+            <hr>
+            <p class="lp">CySecOps aims to empower business growth for SaaS and E-commerce startups like you, through cutting-edge cybersecurity solutions. Using advanced AI-powered technologies and industry best practices we safeguard your digital assets against today's deadliest cyber threats. Our team of cybersecurity experts are trained to provide comprehensive risk management, vulnerability testing, cybersecurity compliance, awareness training and managed web, cloud and application security services. We work as your partner to ensure that your business stays safe online</p>
+        </div>
+    </section>
+
+    <!-- About Us Content Container -->
+    <div class="containerabout">
+        <div class="row about">
+          <div class="col-md-6">
+            <img src="Logos/About_Us_Logo.png" alt="Responsive Picture" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <p>In this modern era of technology, the digital faces of businesses play a very significant role in business development, and we truly care for it. With immense rise in the digital infrastructure, it has become more critical to safeguard it, due to it's complex nature and ever-evolving paradigm. Cybersecurity has become an integral part of every business, no matter what type or size it is. Having said that, the reliance and trust still remains an issue..</p>
+            <p>CySecOps is a team of cybersecurity professionals with expertise in different domains. We are here to take your burden onto our shoulders and to provide you with efficient, reliable, and robust cybersecurity services. We have a mission to secure your cyberspace, making you invincible.</p>
+            <p>For more details, see our services below.</p>            <!-- Add more content as needed -->
+          </div>
+        </div>
+    </div>
+
+    <!-- Quotation Section -->
+    <section class="quotes">
+        <div class="row">
+            <div class="quote-class">
+                <h1><i>"The knock-on effect of a data breach can be devastating for a company. When customers start taking their business—and their money—elsewhere, that can be a real body blow" </i>– <b style="font-weight: 500;">Christopher Graham</b></h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="section2" class="services-section">
+        <div class="row">
+            <div class="services-heading">
+                <h2>Our Services</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="row services">
+                <!-- Service 1 -->
+                <div class="column services">
+                    <img src="Logos/government.png" alt="">
+                    <h1>CYBERSECURITY GOVERNANCE</h1>
+                    <p>We establish the architecture that ensures your company's programs alignment with business objectives, comply with regulations and standards (such as PCI security standards / GDPR / ISO / NIST) and achieve objectives for managing cybersecurity and risk</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="column services">
+                    <img src="Logos/alert.png" alt="">
+                    <h1>CYBERSECURITY RISK MANAGEMENT</h1>
+                    <p>We identify, analyze, evaluate, and address your organization's cybersecurity threats. This provides a snapshot of threats that might compromise your organization's cybersecurity and how severe they are. On the basis of this analysis, we conduct a thorough risk treatment process for you</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="column services">
+                    <img src="Logos/checklist.png" alt="">
+                    <h1>CYBERSECURITY COMPLIANCE</h1>
+                    <p>We help you adhere to standards and regulatory requirements set forth by some law or an authority. Organizations must achieve compliance by establishing risk-based control that protect the confidentiality, integrity, and availability (CIA) of the information</p>
+                </div>
+            </div>
+
+            <div class="row services">
+                <!-- Service 4 -->
+                <div class="column services">
+                    <img src="Logos/smartphone.png" alt="">
+                    <h1>APPLICATION SECURITY</h1>
+                    <p>We implement application-level security measures to prevent data or code within the app from being compromised by including security during application development and design, as well as systems and approaches to protect apps after they are deployed</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="column services">
+                    <img src="Logos/world-wide-web.png" alt="">
+                    <h1>WEB SECURITY</h1>
+                    <p>Web security is critical to the smooth operation of any computer-based business. If a website is hacked or hackers gain access to your systems or software, your website—and even your entire network—can be brought down, effectively halting business operations</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="column services">
+                    <img src="Logos/cloud.png" alt="">
+                    <h1>CLOUD SECURITY</h1>
+                    <p>We provide a comprehensive set of technology and best practices to protect cloud computing environments, cloud-running applications, and cloud-storage data. The full scope of cloud security is designed to protect the entire cloud infrastructure</p>
+                </div>
+            </div>
+
+            <div class="row services">
+                <!-- Service 7 -->
+                <div class="column services">
+                    <img src="Logos/magnifying-glass.png" alt="">
+                    <h1>VULNERABILITY ASSESSMENT & TESTING</h1>
+                    <p>Certain tools are used to detect, categorize, and score vulnerabilities in a system. In addition, we actively exploit the vulnerabilities to determine their severity, authenticity, potential for causing damage, and other insights</p>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="column services">
+                    <img src="Logos/circle.png" alt="">
+                    <h1>CYBERSECURITY MONITORING & DETECTION</h1>
+                    <p>We provide threat detection services and strategies that rely on automation to continuously scan your digital ecosystem for control flaws, frequently sending alerts to a security incident and event management system</p>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="column services">
+                    <img src="Logos/verified-user.png" alt="">
+                    <h1>CYBERSECURITY AWARENESS & TRAINING</h1>
+                    <p>As part of our core strategy to prevent and mitigate user risk, we offer cybersecurity training. These programs are intended to help users and employees understand their role in combating information security breaches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Join Hands Section -->
+<section id="section3" class="seventh-section">
+    <div class="row">
+        <div class="seventh">
+            <h3>LET'S JOIN HANDS TO SECURE YOU</h3>
+            <p>CySecOps is your reliable cybersecurity partner. Let's join each other and create value for your business through our collaboration</p>
+            <button>JOIN US NOW</button>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team">
+
+    <div class="row team-1">
+        <h2>Our Team</h2>
+        <hr>
+    </div>
+
+    <div class="row team">
+
+        <!-- Team Member 1 -->
+        <div class="column team">
+            <img class="uzair-pic" src="Pictures/avatar.jpg" alt="Uzair Malik">
+            <h3>Uzair Malik</h3>
+            <p class="pos">Founder</p>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="column team">
+            <img class="shafqat-pic" src="Pictures/avatar.jpg" alt="Shafqat Abbas">
+            <h3>Shafqat Abbas</h3>
+            <p class="pos">Co-Founder</p>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="column team">
+            <img class="arham-pic" src="Pictures/avatar.jpg" alt="Arham Khan">
+            <h3>Arham Khan</h3>
+            <p class="pos">Team Lead</p>
+            <p>Application Security</p>
+        </div>
+
+    </div>
+
+    <div class="row team">
+
+        <!-- Team Member 4 -->
+        <div class="column team">
+            <img class="huzaifa-pic" src="Pictures/avatar.jpg" alt="Muhammad Huzaifa">
+            <h3>Muhammad Huzaifa</h3>
+            <p class="pos">Team Lead</p>
+            <p>Network Security</p>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="column team">
+            <img class="ahmed-pic" src="Pictures/avatar.jpg" alt="Ahmed Hassan">
+            <h3>Ahmed Hassan</h3>
+            <p class="pos">Team Lead</p>
+            <p>Cloud Security</p>
+        </div>
+
+        <!-- Team Member 6 -->
+        <div class="column team">
+            <img class="eman-pic" src="Pictures/girl.jpg" alt="Eman Munir">
+            <h3>Eman Munir</h3>
+            <p class="pos">Team Lead</p>
+            <p>Governance, Risk & <br> Compliance</p>
+        </div>
+
+    </div>
+
+    <div class="row team">
+
+        <!-- Team Member 7 -->
+        <div class="column team">
+            <img class="zain-pic" src="Pictures/avatar.jpg" alt="Zain-Ul-Abideen">
+            <h3>Zain-Ul-Abideen</h3>
+            <p class="pos">Team Lead</p>
+            <p>Secure Web Development</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Testimonials Section -->
+<div class="container3">
+    <div class="row testimonials">
+        <h2>Testimonials<br><hr></h2>
+    </div>
+
+    <div class="row testimonials">
+
+        <!-- Testimonial 1 -->
+        <div class="column testimonials">
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <p>CySecOps is indeed a collection of highly intelligent and deeply creative professionals. They are thorough and have a great eye for details...</p>
+            <div class="cite-info">
+                <img class="zia" src="Pictures/avatar.jpg" alt="">
+                <h3>Mr. Zia Muhammad</h3>
+                <p class="cite1st">CEH | SSCP | CIT | RHEL | SFPS | ICSI</p>
+                <p>NDSU Institute for Cybersecurity Education & Research, USA</p>
+            </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="column testimonials">
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <p>I got to know about CySecOps through their online channels. Since I am myself a cybersecurity professional, my team worked in collaboration with...</p>
+            <div class="cite-info">
+                <img src="Pictures/avatar.jpg" alt="">
+                <h3>Mr M. Sameer Khatak</h3>
+                <p class="cite1st">Business Development Manager</p>
+                <p>National Center for Cybersecurity, Pakistan</p>
+            </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="column testimonials">
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <i class="fa fa-star" style="color: #0d182c"></i>
+            <p>If you are looking for a cybersecurity firm, CySecOps is the best fit. I as a CEO of a cybersecurity company, I got to work with CySecOps during...</p>
+            <div class="cite-info">
+                <img src="Pictures/avatar.jpg" alt="">
+                <h3>Mr. Kh. Mansoor Ul Hassan</h3>
+                <p class="cite1st">CEO</p>
+                <p>Axolotl Tech Security (Private) Limited</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer Section -->
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <img src="Logos/white_Logo.png" alt="CySecOps Logo">
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="#section5">Home</a></li>
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Services</a></li>
+                <li><a href="#section3">Career</a></li>
+                <li><a href="#section4">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 CySecOps. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script>
+    $(document).ready(function() {
+   $('nav a').click(function(e) {
+     e.preventDefault();
+     var sectionId = $(this).attr('href');
+     $('html, body').animate({
+       scrollTop: $(sectionId).offset().top
+     }, 1000);
+   });
+ });
+</script>
+</body>
+</html>
+

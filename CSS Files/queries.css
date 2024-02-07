@@ -1,0 +1,299 @@
+
+
+@media only screen and (max-width:480px){
+
+ .fourth-section .row .rp{
+    margin:0 10%;
+}
+.row .container .col.about-image img{
+width: 70%;
+margin-bottom: 40px;
+}
+
+.row .quote-class h1{
+    
+    font-size: 15px;
+    
+  }
+
+
+  body .seventh-section .row .seventh h3{
+    font-size: 18px;
+}
+body .seventh-section .row .seventh p{
+    font-size: 15px;
+    width: 130%;
+    margin-left: -15px;
+}
+body .seventh-section .row .seventh button{
+    font-size: 12px;
+    padding: 8px 20px;
+
+}
+
+
+html body header .third-section{
+
+    /* set view port so image can cover all page  */
+    height: 130vh;
+
+
+  
+}
+
+.row .pic-container .second-section .second-sec .firsth1{
+    font-size: 35px;
+   
+    
+  }
+  .row .pic-container .second-section .second-sec .firspara{
+    font-size: 16px;
+  
+  
+  }
+  .row .pic-container .second-section .second-sec #firstlink{
+  
+    font-size: 14px;
+    padding: 14px 35px;
+  
+  }
+
+
+}
+
+@media only screen and (max-width:767px){
+
+
+    html, body{
+        overflow-x: hidden; 
+
+    }
+
+    .second-section .row.second-sec .firsth1{
+
+        font-size: 35px;
+        
+    }
+    .second-section .row.second-sec .firstpara{
+
+        font-size: 18px;
+        padding: 0 10%;
+
+        
+    }
+
+    .second-section
+{
+  margin-top: 15%;
+ 
+}
+
+.fourth-section .row .lp{
+    margin:0 10%;
+}
+.container .col.about-image img{
+    width: 120%;
+margin-left: -30px;}
+
+
+.quotes h1{
+   
+    font-size: 21px;
+
+  }
+
+
+  .seventh p{
+    
+    font-size: 21px;
+    
+}
+.seventh-section .row .seventh h3{
+    font-size: 25px;
+}
+.seventh-section .row .seventh p{
+    font-size: 18px;
+}
+.seventh-section .row .seventh button{
+    font-size: 13px;
+    padding: 13px 40px;
+
+}
+
+
+   
+body header .third-section{
+
+    /* set view port so image can cover all page  */
+    height: 100vh;
+
+  
+}
+
+}
+
+/* @media only screen and (max-width:957px){
+
+
+    html, body{
+        overflow-x: hidden; 
+
+    }
+
+   
+}
+      */
+
+
+/*  768 - 1023px */
+
+@media only screen and (max-width:1023px){
+
+    .seventh{
+          top: 50%; 
+    
+      
+      }
+
+      .row.second-sec .firsth1{
+
+        font-size: 45px;
+        
+    }
+
+    .firstpara{
+        font-size: 12px;
+        padding: 0 20%;
+
+    }
+
+    .col.about-image img{
+        width: 90%;
+    }
+    .row .seventh h3{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+   .second-section{
+    margin-top: 120px;
+   }
+
+
+   
+   header .third-section{
+
+    /* set view port so image can cover all page  */
+    height: 100vh;
+
+  
+}
+
+
+}
+
+
+
+
+
+/*  1024 - 1200px */
+
+@media only screen and (max-width:1200px){
+
+    .firsth1{
+
+        font-size: 50px;
+        
+    }
+
+    .firstpara{
+        font-size: 18px;
+
+    }
+
+    #firstlink{
+  
+        font-size: 17px;
+        padding: 16px 38px;
+     
+      
+      }
+
+      .fourth-section .lp{
+        margin:0 20%;
+        margin-top: 40px;
+     
+    }
+    .container p {
+        text-align: center;
+       margin-right: -100px;
+       margin-left: -100px;
+
+       
+    
+    }
+  
+    .about-image img{
+        width: 70%;
+    }
+
+   
+    .seventh h3{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .seventh p{
+    
+        font-size: 18px;
+      
+    }
+    .seventh button{
+    
+        padding: 13px 40px;
+     
+        font-size: 13px;
+       
+    }
+
+       
+.third-section{
+
+    /* set view port so image can cover all page  */
+    height: 100vh;
+
+  
+}
+
+
+
+}
+@media only screen and (max-width:430px){
+    .column.team h3{
+        font-size: 18px;
+        
+    
+    }
+    .column.team p{
+        font-size: 15px;
+       
+    }
+
+    .column.team {
+        /* flex: 1; */
+        /* max-width: 300px;  */
+        color: #0d182c;
+            margin: 0 20px;
+      
+        padding:40px 20px;
+    
+    
+    
+    }
+
+    .column.testimonials img{
+        width: 30%;
+       
+      
+      }
+}
+
